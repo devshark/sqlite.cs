@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Connect.cs" />
+    <Compile Include="customRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="main.cs">
       <SubType>Form</SubType>
     </Compile>

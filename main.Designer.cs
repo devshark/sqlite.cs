@@ -39,7 +39,7 @@
             this.btnExec = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.tssStatus = new System.Windows.Forms.ToolStripStatusLabel();
-            this.rtbSQL = new System.Windows.Forms.RichTextBox();
+            this.rtbSQL = new sqlite.cs.customRichTextBox();
             this.groupBox1.SuspendLayout();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -211,7 +211,7 @@
         private System.Windows.Forms.Button btnExec;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel tssStatus;
-        private System.Windows.Forms.RichTextBox rtbSQL;
+        private sqlite.cs.customRichTextBox rtbSQL;
     }
 }
 

@@ -57,6 +57,7 @@ namespace sqlite.cs
                 this.con.Refresh();
                 DataTable tbl = this.con.Query(sql);
                 dgvResult.DataSource = tbl;
+                tssStatus.Text = "Done.";
             }
             catch(Exception ex)
             {
